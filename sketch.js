@@ -9,10 +9,10 @@ var cars = []
 var gameState
 
 function preload() {
-  backgroundImage = loadImage("./assets/background.png");
-  car1_img = loadImage("./assets/car1.png")
-  car2_img = loadImage("./assets/car2.png")
-  track = loadImage("./assets/track.jpg")
+  backgroundImage = loadImage("background.png");
+  car1_img = loadImage("car1.png")
+  car2_img = loadImage("car2.png")
+  track = loadImage("track.jpg")
 }
 
 function setup() {
